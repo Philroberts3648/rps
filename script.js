@@ -1,18 +1,16 @@
 const container = document.querySelector(".container");
+const scoreDisplay = document.querySelector(".score_board");
 const result = document.querySelector("#result");
 
 let humanScore = 0;
 let computerScore = 0;
 let winningScore = 5;
-
-let choices = ["rock", "paper", "scissors"];
 let gameOver = false;
 
-const scoreDisplay = document.createElement("p");
-container.appendChild(scoreDisplay);
+let choices = ["rock", "paper", "scissors"];
 
 function updateScore() {
-    scoreDisplay.textContent = `You: ${humanScore} - Computer: ${computerScore}`;
+    scoreDisplay.textContent = `SCORE BOARD || You: ${humanScore} - Computer: ${computerScore}`;
 }
 
 function getComputerChoice() {

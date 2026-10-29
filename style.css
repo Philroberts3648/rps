@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid powderblue;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    height: 50px;
+}
+
+#rock,
+#paper,
+#scissors {
+    margin: 5px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 20%;
+    
+
+}
+
+.score_board {
+    width: 50%;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+#result {
+    border: 2px solid skyblue;
+    padding: 10px;
+    width: 60%;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
